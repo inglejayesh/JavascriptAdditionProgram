@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Javascript Form</title>
+<style>
+</style>
+<script>
+function show() 
+{
+var n1=document.getElementById('t1').value;
+var n2=document.getElementById('t2').value;
+var result=parseInt(n1)+parseInt(n2);
+document.getElementById('t3').value=result;
+}
+</script>
+</head>
+<body>
+<nav>
+<div class="form">Form</div>
+</nav>
+<hr>
+<form action="post">
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Addition Program</title>
+    <link rel="stylesheet" href="style.css" />
+<script>
+function show() 
+{
+var n1=document.getElementById('t1').value;
+var n2=document.getElementById('t2').value;
+var result=parseInt(n1)+parseInt(n2);
+document.getElementById('t3').value=result;
+}
+</script> 
+</head>
+
+<body>
+    <div class="container">
+	<div class="header">
+        <p></p>
+		<h2>Javascript Addition Program</h2>
+	</div>
+<form  id="form" class="form">
+    <div class="form-control">
+    <label>First Number : </label>
+	<input type="text" id="t1" onkeyup="show();">
+<p></p>
+     
+    <label>Second Number : </label>
+    <input type="text" id="t2" onkeyup="show();"><p>
+<p></p>
+   
+    <label>Result : </label>
+    <input type="text" id="t3" ><p>
+<p></p>   
+    </div>
+    </div>
+    </body>
+</html>
